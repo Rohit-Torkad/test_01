@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    text-align: center;
+    padding: 2em;
+  }
+  
+  #featured-products h2 {
+    text-align: center;
+  }
+  
+  #featured-products li {
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+  }
+  
+  #featured-products img {
+    width: 200px;
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+/* HTML Body */
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Container for header, main content, and footer */
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* Main content */
+main {
+  padding-bottom: 50px; /* Reserve space for the footer */
+}
+
+/* Footer element */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Height of the footer */
+}
+
+  
